@@ -1,0 +1,11 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/spring-tema_2
+        username: root
+        password: root
+    jpa:
+        database-platform: org.hibernate.dialect.MySQLDialect
+        hibernate:
+            ddl-auto: update
+            connection-url: jdbc:mysql://localhost:3306/spring-tema_2
+            dialect: org.hibernate.dialect.MySQLDialect
